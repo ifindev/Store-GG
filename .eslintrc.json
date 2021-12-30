@@ -19,5 +19,11 @@
       { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
     ],
     "react/react-in-jsx-scope": "off"
-  }
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "typescriptreact"
+  ]
 }
