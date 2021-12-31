@@ -7,7 +7,7 @@ interface MenuProps {
   href: string
 }
 
-export default function NavMenu(props: MenuProps) {
+export default function NavMenu(props: Partial<MenuProps>) {
   const { title, active, href = '/' } = props
   const classTitle = cx({
     'nav-link': true,
@@ -23,8 +23,4 @@ export default function NavMenu(props: MenuProps) {
       </Link>
     </li>
   )
-}
-
-NavMenu.defaultProps = {
-  active: false,
 }
