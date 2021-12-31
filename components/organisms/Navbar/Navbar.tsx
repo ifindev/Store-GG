@@ -1,7 +1,6 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable react/function-component-definition */
 import Image from 'next/image'
 import React from 'react'
+import NavMenu from './NavMenu'
 
 const Navbar = () => {
   return (
@@ -24,32 +23,11 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
-              <li className="nav-item my-auto">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item my-auto">
-                <a className="nav-link" href="#">
-                  Games
-                </a>
-              </li>
-              <li className="nav-item my-auto">
-                <a className="nav-link" href="#">
-                  Rewards
-                </a>
-              </li>
-
-              <li className="nav-item my-auto">
-                <a className="nav-link" href="#">
-                  Discover
-                </a>
-              </li>
-              <li className="nav-item my-auto me-lg-20">
-                <a className="nav-link" href="#">
-                  Global Rank
-                </a>
-              </li>
+              <NavMenu title="Home" active />
+              <NavMenu title="Games" />
+              <NavMenu title="Rewards" />
+              <NavMenu title="Discover" />
+              <NavMenu title="Global Rank" />
               <li className="nav-item my-auto">
                 <a
                   className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
