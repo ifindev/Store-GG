@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import NavMenu from './NavMenu'
+import NavAuth from './NavAuth'
 
 const Navbar = () => {
   return (
@@ -28,15 +29,7 @@ const Navbar = () => {
               <NavMenu title="Rewards" />
               <NavMenu title="Discover" />
               <NavMenu title="Global Rank" />
-              <li className="nav-item my-auto">
-                <a
-                  className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill"
-                  href="./src/sign-in.html"
-                  role="button"
-                >
-                  Sign In
-                </a>
-              </li>
+              <NavAuth />
             </ul>
           </div>
         </div>
