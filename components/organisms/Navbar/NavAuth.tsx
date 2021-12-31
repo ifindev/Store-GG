@@ -35,24 +35,32 @@ const NavAuth = (props: NavAuthProps) => {
               aria-labelledby="dropdownMenuLink"
             >
               <li>
-                <a className="dropdown-item text-lg color-palette-2" href="#">
-                  My Profile
-                </a>
+                <Link href="/member">
+                  <a className="dropdown-item text-lg color-palette-2">
+                    My Profile
+                  </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item text-lg color-palette-2" href="#">
-                  Wallet
-                </a>
+                <Link href="/">
+                  <a className="dropdown-item text-lg color-palette-2">
+                    Wallet
+                  </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item text-lg color-palette-2" href="#">
-                  Account Settings
-                </a>
+                <Link href="/member/edit-profile">
+                  <a className="dropdown-item text-lg color-palette-2">
+                    Account Settings
+                  </a>
+                </Link>
               </li>
               <li>
-                <a className="dropdown-item text-lg color-palette-2" href="#">
-                  Log Out
-                </a>
+                <Link href="/sign-in">
+                  <a className="dropdown-item text-lg color-palette-2">
+                    Log Out
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
