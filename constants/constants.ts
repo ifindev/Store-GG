@@ -75,3 +75,35 @@ export const reachedItems = [
     desc: 'Rating Worldwide',
   },
 ]
+
+export const footerItems = [
+  {
+    title: 'Company',
+    items: [
+      { text: 'About Us', href: '' },
+      { text: 'Press Release', href: '' },
+      { text: 'Terms of Use', href: '' },
+      { text: 'Privacy & Policy', href: '' },
+    ],
+  },
+  {
+    title: 'Support',
+    items: [
+      { text: 'Refund Policy', href: '' },
+      { text: 'Unlock Rewards', href: '' },
+      { text: 'Live Chatting', href: '' },
+    ],
+  },
+  {
+    title: 'Connect',
+    items: [
+      { text: 'hi@store.gg', href: 'mailto: hi@store.gg' },
+      { text: 'team@store.gg', href: 'mailto: team@store.gg' },
+      {
+        text: 'Pasific 12, Jakarta Selatan',
+        href: 'http://maps.google.com/?q=Pasific 12,Jakarta Selatan',
+      },
+      { text: '021 - 1122 - 9090', href: 'tel: 02111229090' },
+    ],
+  },
+]

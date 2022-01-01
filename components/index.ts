@@ -4,3 +4,4 @@ export { default as TransactionStep } from './organisms/TransactionStep/Transact
 export { default as FeaturedGames } from './organisms/FeaturedGames/FeaturedGames'
 export { default as Reached } from './organisms/Reached/Reached'
 export { default as Story } from './organisms/Story/Story'
+export { default as Footer } from './organisms/Footer/Footer'
