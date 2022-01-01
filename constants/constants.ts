@@ -56,3 +56,22 @@ export const gameItems: {
     thumbnail: 'Thumbnail-5',
   },
 ]
+
+export const reachedItems = [
+  {
+    stats: '290M+',
+    desc: 'Players Top Up',
+  },
+  {
+    stats: '12.500',
+    desc: 'Games Available',
+  },
+  {
+    stats: '99.9%',
+    desc: 'Happy Players',
+  },
+  {
+    stats: '4.7',
+    desc: 'Rating Worldwide',
+  },
+]
