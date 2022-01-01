@@ -1,7 +1,12 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useEffect } from 'react'
 import AOS from 'aos'
-import { MainBanner, Navbar, TransactionStep } from '../components'
+import {
+  FeaturedGames,
+  MainBanner,
+  Navbar,
+  TransactionStep,
+} from '../components'
 
 export default function Home() {
   useEffect(() => {
@@ -13,6 +18,7 @@ export default function Home() {
       <Navbar />
       <MainBanner />
       <TransactionStep />
+      <FeaturedGames />
 
       <section className="reached pt-50 pb-50">
         <div className="container-fluid">

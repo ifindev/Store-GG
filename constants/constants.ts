@@ -19,3 +19,40 @@ export const trxSteps = [
     desc2: 'improve permainan kamu',
   },
 ]
+
+export const gameItems: {
+  title: string
+  category: string
+  thumbnail:
+    | 'Thumbnail-1'
+    | 'Thumbnail-2'
+    | 'Thumbnail-3'
+    | 'Thumbnail-4'
+    | 'Thumbnail-5'
+}[] = [
+  {
+    title: 'Super Mech',
+    category: 'mobile',
+    thumbnail: 'Thumbnail-1',
+  },
+  {
+    title: 'Call of Duty: Modern',
+    category: 'mobile',
+    thumbnail: 'Thumbnail-2',
+  },
+  {
+    title: 'Mobile Legends',
+    category: 'mobile',
+    thumbnail: 'Thumbnail-3',
+  },
+  {
+    title: 'Clash of Clans',
+    category: 'mobile',
+    thumbnail: 'Thumbnail-4',
+  },
+  {
+    title: 'Valorant',
+    category: 'Desktop',
+    thumbnail: 'Thumbnail-5',
+  },
+]
