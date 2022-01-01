@@ -19,11 +19,11 @@ const GameItem = (props: GameItemProps) => {
       <Link href="/detail">
         <a>
           <div className="blur-sharp">
-            <Image
+            <img
               className="thumbnail"
               src={`/img/${thumbnail}.png`}
-              width={205}
-              height={270}
+              width="205"
+              height="270"
               alt="thumbnail"
             />
           </div>
