@@ -1,4 +1,4 @@
-import React from 'react'
+import Image from 'next/image'
 
 const Story = () => {
   return (
@@ -9,12 +9,12 @@ const Story = () => {
             className="col-lg-7 col-12 d-lg-flex d-none justify-content-lg-end pe-lg-60"
             data-aos="zoom-in"
           >
-            <img
+            <Image
               src="/img/Header-9.png"
-              width="612"
-              height="452"
+              width={612}
+              height={452}
               className="img-fluid"
-              alt=""
+              alt="story image"
             />
           </div>
           <div className="col-lg-5 col-12 ps-lg-60">
