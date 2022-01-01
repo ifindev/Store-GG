@@ -1,4 +1,6 @@
-import React from 'react'
+/* eslint-disable jsx-a11y/label-has-associated-control */
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Detail = () => {
   return (
@@ -16,10 +18,10 @@ const Detail = () => {
           <div className="col-xl-3 col-lg-4 col-md-5 pb-30 pb-md-0 pe-md-25 text-md-start">
             <div className="row align-items-center">
               <div className="col-md-12 col-4">
-                <img
+                <Image
                   src="/img/Thumbnail-3.png"
-                  width="280"
-                  height="380"
+                  width={280}
+                  height={380}
                   className="img-fluid"
                   alt=""
                 />
@@ -88,23 +90,7 @@ const Detail = () => {
                           <span className="fw-medium">125</span>
                           Gold
                         </p>
-                        <svg
-                          id="icon-check"
-                          width="20"
-                          height="20"
-                          viewBox="0 0 20 20"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                          <path
-                            d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                            stroke="#00BAFF"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
+                        <Image src="/icon/check.svg" width={20} height={20} />
                       </div>
                       <p className="text-lg color-palette-1 m-0">
                         Rp 3.250.000
@@ -128,23 +114,7 @@ const Detail = () => {
                           <span className="fw-medium">225</span>
                           Gold
                         </p>
-                        <svg
-                          id="icon-check"
-                          width="20"
-                          height="20"
-                          viewBox="0 0 20 20"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                          <path
-                            d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                            stroke="#00BAFF"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
+                        <Image src="/icon/check.svg" width={20} height={20} />
                       </div>
                       <p className="text-lg color-palette-1 m-0">
                         Rp 3.250.000
@@ -168,23 +138,7 @@ const Detail = () => {
                           <span className="fw-medium">350</span>
                           Gold
                         </p>
-                        <svg
-                          id="icon-check"
-                          width="20"
-                          height="20"
-                          viewBox="0 0 20 20"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                          <path
-                            d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                            stroke="#00BAFF"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
+                        <Image src="/icon/check.svg" width={20} height={20} />
                       </div>
                       <p className="text-lg color-palette-1 m-0">
                         Rp 3.250.000
@@ -208,23 +162,7 @@ const Detail = () => {
                           <span className="fw-medium">550</span>
                           Gold
                         </p>
-                        <svg
-                          id="icon-check"
-                          width="20"
-                          height="20"
-                          viewBox="0 0 20 20"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                          <path
-                            d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                            stroke="#00BAFF"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
+                        <Image src="/icon/check.svg" width={20} height={20} />
                       </div>
                       <p className="text-lg color-palette-1 m-0">
                         Rp 3.250.000
@@ -248,23 +186,7 @@ const Detail = () => {
                           <span className="fw-medium">750</span>
                           Gold
                         </p>
-                        <svg
-                          id="icon-check"
-                          width="20"
-                          height="20"
-                          viewBox="0 0 20 20"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                          <path
-                            d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                            stroke="#00BAFF"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
+                        <Image src="/icon/check.svg" width={20} height={20} />
                       </div>
                       <p className="text-lg color-palette-1 m-0">
                         Rp 3.250.000
@@ -298,23 +220,7 @@ const Detail = () => {
                           <p className="text-3xl color-palette-1 fw-medium m-0">
                             Transfer
                           </p>
-                          <svg
-                            id="icon-check"
-                            width="20"
-                            height="20"
-                            viewBox="0 0 20 20"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                            <path
-                              d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                              stroke="#00BAFF"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
+                          <Image src="/icon/check.svg" width={20} height={20} />
                         </div>
                         <p className="text-lg color-palette-1 m-0">
                           Worldwide Available
@@ -337,23 +243,7 @@ const Detail = () => {
                           <p className="text-3xl color-palette-1 fw-medium m-0">
                             VISA
                           </p>
-                          <svg
-                            id="icon-check"
-                            width="20"
-                            height="20"
-                            viewBox="0 0 20 20"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <circle cx="10" cy="10" r="10" fill="#CDF1FF" />
-                            <path
-                              d="M5.83301 10L8.46459 12.5L14.1663 7.5"
-                              stroke="#00BAFF"
-                              stroke-width="2"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
+                          <Image src="/icon/check.svg" width={20} height={20} />
                         </div>
                         <p className="text-lg color-palette-1 m-0">
                           Credit Card
@@ -383,15 +273,14 @@ const Detail = () => {
                 />
               </div>
               <div className="d-sm-block d-flex flex-column w-100">
-                <a
-                  href="./checkout.html"
-                  type="submit"
-                  className="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg"
-                >
-                  Continue
-                </a>
-                {/* <!-- <button type="submit"
-                                className="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg">Continue</button> --> */}
+                <Link href="/checkout">
+                  <a
+                    type="submit"
+                    className="btn btn-submit rounded-pill fw-medium text-white border-0 text-lg"
+                  >
+                    Continue
+                  </a>
+                </Link>
               </div>
             </form>
           </div>
