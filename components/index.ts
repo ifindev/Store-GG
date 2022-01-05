@@ -5,3 +5,5 @@ export { default as FeaturedGames } from './organisms/FeaturedGames/FeaturedGame
 export { default as Reached } from './organisms/Reached/Reached'
 export { default as Story } from './organisms/Story/Story'
 export { default as Footer } from './organisms/Footer/Footer'
+export { default as TopUpForm } from './organisms/TopUpForm/TopUpForm'
+export { default as TopUpItem } from './organisms/TopUpItem/TopUpItem'
