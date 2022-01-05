@@ -18,7 +18,7 @@ const Navbar = () => {
               <NavMenu title="Rewards" />
               <NavMenu title="Discover" />
               <NavMenu title="Global Rank" />
-              <NavAuth isLogin />
+              <NavAuth />
             </ul>
           </div>
         </div>
