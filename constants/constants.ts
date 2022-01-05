@@ -138,7 +138,22 @@ export const footerItems = [
 	},
 ]
 
-export const signUpFormItems = [
+export type FormItemsType = {
+	label: {
+		htmlFor: string
+		text: string
+	},
+
+	input: {
+		type: string
+		id: string
+		name: string
+		ariaDescribedBy: string
+		placeholder: string
+	}
+}
+
+export const signUpFormItems: FormItemsType[] = [
 	{
 		label: {
 			htmlFor: 'name',
@@ -176,6 +191,48 @@ export const signUpFormItems = [
 			name: 'password',
 			ariaDescribedBy: 'password',
 			placeholder: 'Your password'
+		}
+	},
+]
+
+export const updateProfileFormItems: FormItemsType[] = [
+	{
+		label: {
+			htmlFor: 'name',
+			text: 'Full Name'
+		},
+		input: {
+			type: 'text',
+			id: 'name',
+			name: 'name',
+			ariaDescribedBy: 'name',
+			placeholder: 'Enter your name'
+		}
+	},
+	{
+		label: {
+			htmlFor: 'email',
+			text: 'Email Address'
+		},
+		input: {
+			type: 'email',
+			id: 'email',
+			name: 'email',
+			ariaDescribedBy: 'email',
+			placeholder: 'Enter your email address'
+		}
+	},
+	{
+		label: {
+			htmlFor: 'phone',
+			text: 'Phone'
+		},
+		input: {
+			type: 'tel',
+			id: 'phone',
+			name: 'phone',
+			ariaDescribedBy: 'phone',
+			placeholder: 'Enter your phone number'
 		}
 	},
 ]
