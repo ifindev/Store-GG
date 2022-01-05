@@ -217,3 +217,46 @@ export const sidebarMemberMenuItems = [
 		href: '/'
 	}
 ]
+
+export const MemberTransactionsHistoryColumn = ['Game', 'Item', 'Price', 'Status']
+export const LatestTransactionsData: {
+	image: string
+	title: string
+	category: string
+	item: string
+	price: number
+	status: 'Pending' | 'Success' | 'Failed'
+}[] = [
+	{
+		image: '/img/overview-1.png',
+		title: 'Mobile Legends: The New Battle 2021',
+		category: 'Desktop',
+		item: '200 Gold',
+		price: 290000,
+		status: 'Pending'
+	},
+	{
+		image: '/img/overview-2.png',
+		title: 'Call of Duty: Modern Warfare III',
+		category: 'Desktop',
+		item: '550 Gold',
+		price: 740000,
+		status: 'Success'
+	},
+	{
+		image: '/img/overview-3.png',
+		title: 'Clash of Clans',
+		category: 'Mobile',
+		item: '100 Gold',
+		price: 120000,
+		status: 'Failed'
+	},
+	{
+		image: '/img/overview-4.png',
+		title: 'The Royal Game',
+		category: 'Mobile',
+		item: '225 Gold',
+		price: 200000,
+		status: 'Pending'
+	},
+]
