@@ -107,3 +107,45 @@ export const footerItems = [
     ],
   },
 ]
+
+export const signUpFormItems = [
+  {
+    label: {
+      htmlFor: "name",
+      text: "Full Name"
+    },
+    input: {
+      type: "text",
+      id: "name",
+      name: "name",
+      ariaDescribedBy: "name",
+      placeholder: "Enter your name"
+    }
+  },
+  {
+    label: {
+      htmlFor: "email",
+      text: "Email Address"
+    },
+    input: {
+      type: "email",
+      id: "email",
+      name: "email",
+      ariaDescribedBy: "email",
+      placeholder: "Enter your email address"
+    }
+  },
+  {
+    label: {
+      htmlFor: "password",
+      text: "Password"
+    },
+    input: {
+      type: "password",
+      id: "password",
+      name: "password",
+      ariaDescribedBy: "password",
+      placeholder: "Your password"
+    }
+  },
+]
